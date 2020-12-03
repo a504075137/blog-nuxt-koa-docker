@@ -8,8 +8,8 @@ export default {
   dev: process.env.NODE_ENV !== 'production',
   env: {
     baseURL: {
-      development: "http://10.255.209.23:3100/",
-      production: "http://10.255.209.23:3100/"
+      development: "http://203.195.144.87:3100/",
+      production: "http://203.195.144.87:3100/"
     },
   },
   head: {
