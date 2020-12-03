@@ -13,11 +13,11 @@ export default {
     },
   },
   head: {
-    title: 'my-blog',
+    title: '罗小淳',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: '罗小淳的博客' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
