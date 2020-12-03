@@ -1,0 +1,18 @@
+version: "3.1"
+services:
+  nginx:
+    restart: always
+    image: nginx
+    ports:
+      - 3100:3100
+    volumes:
+      - ./nginx/conf.d/:/etc/nginx/conf.d
+      - ./nginx/html:/var/www/html/
+  app-pm2:
+    build: ./koa
+    ports:
+      - 3030:3000
+  nuxt:
+    build: ./nuxt
+    ports:
+      - 5000:5000
