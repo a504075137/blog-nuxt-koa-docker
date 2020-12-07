@@ -19,7 +19,7 @@ const state = () => ({
     },
     {
       name: 'Github',
-      path: 'https://github.com/a504075137',
+      path: 'https://github.com/luotianchun',
       type: 'link'
 
     }
