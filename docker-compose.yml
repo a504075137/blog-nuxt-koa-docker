@@ -12,7 +12,3 @@ services:
     build: ./koa
     ports:
       - 3030:3000
-  nuxt:
-    build: ./nuxt
-    ports:
-      - 5000:5000
